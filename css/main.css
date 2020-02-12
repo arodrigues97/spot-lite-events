@@ -1,1 +1,196 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css?family=EB+Garamond&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cinzel:900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css?family=EB+Garamond&display=swap");
+@import url(//db.onlinewebfonts.com/c/6dd2f2510b4a00a5461b2455928209c2?family=BrandonGrotW01-Light);
+.navbar {
+  padding: 1rem;
+  font-size: 22px;
+  background-color: black;
+}
+
+.navbar .navbar-nav .nav-item a {
+  padding-left: 5em;
+  color: #AF9453 !important;
+}
+
+.navbar .navbar-nav .nav-item a:hover {
+  color: #333333 !important;
+}
+
+.nav-link .active {
+  color: #333333 !important;
+}
+
+.navbar-brand img {
+  width: 80%;
+}
+
+body {
+  background-color: black;
+  font-family: 'EB Garamond', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.btn-info {
+  width: 130px;
+  border-radius: 0;
+  color: white !important;
+  color: #AF9453;
+  background-color: #AF9453;
+  border-color: white;
+}
+
+.btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active,
+.open > .btn-info.dropdown-toggle {
+  color: #AF9453;
+  background-color: #8d7742;
+  border-color: #e0e0e0;
+}
+
+.btn-info:active, .btn-info.active,
+.open > .btn-info.dropdown-toggle {
+  background-image: none;
+}
+
+.btn-info.disabled, .btn-info.disabled:hover, .btn-info.disabled:focus, .btn-info.disabled:active, .btn-info.disabled.active, .btn-info[disabled], .btn-info[disabled]:hover, .btn-info[disabled]:focus, .btn-info[disabled]:active, .btn-info[disabled].active,
+fieldset[disabled] .btn-info,
+fieldset[disabled] .btn-info:hover,
+fieldset[disabled] .btn-info:focus,
+fieldset[disabled] .btn-info:active,
+fieldset[disabled] .btn-info.active {
+  background-color: #AF9453;
+  border-color: white;
+}
+
+.btn-info .badge {
+  color: #AF9453;
+  background-color: #AF9453;
+}
+
+.padding-0 {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  max-height: 900px;
+  background-image: url("/images/mastheader.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.masthead h1 {
+  font-family: 'Cinzel', serif;
+  color: #DEC33C;
+  font-weight: bold;
+  font-size: 61px;
+  letter-spacing: 0.35em;
+}
+
+.masthead p {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  color: white;
+  font-size: 27px;
+}
+
+.masthead button {
+  margin-top: 10rem;
+}
+
+.services {
+  background: black;
+  color: #E4D9BC !important;
+}
+
+.services #servicesH1 {
+  font-size: 54px;
+  color: #AF9453 !important;
+  text-align: center;
+  padding: 2rem;
+}
+
+.services .col {
+  padding: 1rem;
+}
+
+.services .col .service {
+  text-align: center;
+}
+
+.services .learn-more {
+  margin-top: 6rem;
+  text-align: center;
+}
+
+.bar-right {
+  border-right: 1px solid #E4D9BC;
+}
+
+.bar-left {
+  border-left: 1px solid #E4D9BC;
+}
+
+.testimonial {
+  margin-top: 3rem;
+}
+
+.testimonial .col {
+  padding: 10rem;
+}
+
+.testimonial .left {
+  background-image: url("/images/sparklers.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.testimonial .right {
+  text-align: center;
+  background-color: #af9453;
+}
+
+.testimonial .right p {
+  color: white;
+  font-family: 'EB Garamond', serif;
+  font-size: 33px;
+}
+
+.testimonial .right span {
+  color: white;
+  font-size: 21px;
+  font-family: 'BrandonGrotW01-Light', serif;
+}
+
+.logo {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.offers {
+  text-align: center;
+  margin-top: 5rem;
+  color: #E4D9BC !important;
+  margin-bottom: 10rem;
+}
+
+footer {
+  padding: 4rem;
+  background-color: #af9453;
+  color: white;
+}
+
+footer .bar-right {
+  border-right: 1px solid white;
+}
+
+footer .bar-left {
+  border-left: 1px solid white;
+}
+/*# sourceMappingURL=main.css.map */

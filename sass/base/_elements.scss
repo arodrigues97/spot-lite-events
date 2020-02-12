@@ -1,0 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond&display=swap');
+
+body {
+    background-color: $backgroundColor;
+    font-family: 'EB Garamond', serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+$mynewcolor: #AF9453;
+
+.btn-info {
+    width: 130px;
+    border-radius: 0;
+    color: white !important;
+    @include button-variant($mynewcolor, $mynewcolor, white);
+
+}
+
+
+
+.padding-0 {
+  padding-right: 0;
+  padding-left: 0;
+}

@@ -1,0 +1,43 @@
+
+.navbar {
+    padding: 1rem;
+    font-size: 22px;
+    background-color: $backgroundColor;
+
+
+    .navbar-nav {
+
+        .nav-item {
+
+            a {
+                padding-left: 5em;
+                color: $primaryColor !important;
+            }
+
+            a:hover {
+                color: $hoverColor !important;
+            }
+
+        
+        }
+
+    }
+}
+
+.nav-link {
+
+    .active {
+        color: $hoverColor !important;
+    }
+}
+
+@media (min-width: $smallWidth) {
+
+  }
+
+.navbar-brand {
+    img {
+      width: 80%;
+    }
+}
+
