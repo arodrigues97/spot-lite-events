@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=EB+Garamond&display=swap');
-@import url(//db.onlinewebfonts.com/c/6dd2f2510b4a00a5461b2455928209c2?family=BrandonGrotW01-Light);
-
 .services {
     background: black;
     color: $secondaryColor !important;
@@ -9,51 +6,36 @@
         font-size: 54px;
         color: $primaryColor !important;
         text-align: center;
-        padding: 2rem;
-    }
-
-    .col {
         padding: 1rem;
-
-
-        .service {
-            text-align: center;
-        }
     }
-
 
     .learn-more {
-        margin-top: 6rem;
+        margin-top: 1rem;
         text-align: center;
     }
-}
 
-.bar-right {
-    border-right: 1px solid $secondaryColor;
-}
+    .bar-right-service {
+        border-right: 1px solid $secondaryColor;
+    }
 
-.bar-left {
-    border-left: 1px solid $secondaryColor;
+    .bar-left-service {
+        border-left: 1px solid $secondaryColor;
+    }
 }
 
 .testimonial {
-
-
     margin-top: 3rem;
 
-    .col {
-        padding: 10rem;
+    img {
+        width: 100%;
+        height: 100%;
     }
 
-    .left {
-        background-image: url("/images/sparklers.jpg");
-        background-repeat: no-repeat;
-        background-size: 100%;
-    }
-
-    .right {
-
-        text-align: center;
+    .quote {
+        .vertical {
+            margin-top: 30%;
+        }
+        padding: 2rem;
         background-color: rgb(175, 148, 83);
 
         p {
@@ -63,11 +45,16 @@
         }
 
         span {
+            padding: 2rem;
+            text-align: center;
             color: white;
             font-size: 21px;
             font-family: 'BrandonGrotW01-Light', serif;
         }
+
     }
+
+
 }
 
 .logo {
@@ -80,4 +67,64 @@
     margin-top: 5rem;
     color: $secondaryColor !important;
     margin-bottom: 10rem;
+
+    h1 {
+        margin-bottom: 2rem;
+    }
+
+    .bar-right-offers {
+        border-right: 1px solid $secondaryColor;
+    }
+
+    .bar-left-offers {
+        border-left: 1px solid $secondaryColor;
+    }
+
+}
+
+.bar-right {
+    border-right: 1px solid $secondaryColor;
+}
+
+.bar-left {
+    border-left: 1px solid $secondaryColor;
+}
+
+
+@media (max-width: $smallWidth) {
+
+    .services {
+
+        .bar-right-service,
+        .bar-left-service {
+            border: none;
+        }
+    }
+
+
+}
+
+
+
+@media (max-width: 990px) {
+
+    .offers {
+
+        .bar-right-offers,
+        .bar-left-offers {
+            border: none;
+        }
+    }
+
+
+}
+
+
+@media (max-width: 1025px) {
+
+    .vertical {
+        margin-top: 0px;
+        margin-bottom: 30%;
+    }
+
 }

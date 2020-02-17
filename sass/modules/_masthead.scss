@@ -3,7 +3,7 @@
 
 
 .masthead {
-
+    margin-top: 1px;
     height: 100vh;
     min-height: 500px;
     max-height: 900px;
@@ -12,12 +12,17 @@
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    
     h1 {
         font-family: 'Cinzel', serif;
         color: #DEC33C;
         font-weight: bold;
         font-size: 61px;
         letter-spacing: 0.35em;
+    }
+
+    .fa-arrow-down {
+        color: white;
     }
 
      p {

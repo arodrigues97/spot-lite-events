@@ -1,6 +1,5 @@
 
 footer {
-    padding: 4rem;
     background-color: rgb(175, 148, 83);
     color: white;
 
@@ -10,5 +9,9 @@ footer {
 
     .bar-left {
         border-left: 1px solid white;
+    }
+
+    a {
+        color: white !important;
     }
 }

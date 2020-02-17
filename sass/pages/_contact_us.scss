@@ -1,0 +1,32 @@
+
+
+.contact {
+    width: 900px;
+    margin: 0 auto;
+    color: $primaryColor;
+    padding: 3rem;
+
+    h2 {
+        padding: 3rem;
+    }
+
+    button {
+        margin: 1rem;
+    }
+
+    span {
+        color: rgba(55, 59, 77, 1) !important;
+    }
+
+
+}
+
+
+@media (max-width: 900px) {
+
+    .contact {
+        width: 100%;
+    }
+
+  
+}

@@ -1,16 +1,21 @@
 @import url("https://fonts.googleapis.com/css?family=EB+Garamond&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Cinzel:900&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display&display=swap");
 @import url("https://fonts.googleapis.com/css?family=EB+Garamond&display=swap");
 @import url(//db.onlinewebfonts.com/c/6dd2f2510b4a00a5461b2455928209c2?family=BrandonGrotW01-Light);
+@import url("https://fonts.googleapis.com/css?family=Cinzel:900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display&display=swap");
 .navbar {
   padding: 1rem;
   font-size: 22px;
   background-color: black;
+  border-bottom: 1px solid #AF9453;
+  padding-bottom: 2rem;
+}
+
+.navbar .navbar-nav li {
+  padding-left: 2rem;
 }
 
 .navbar .navbar-nav .nav-item a {
-  padding-left: 5em;
   color: #AF9453 !important;
 }
 
@@ -20,6 +25,13 @@
 
 .nav-link .active {
   color: #333333 !important;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    display: none;
+    background: red;
+  }
 }
 
 .navbar-brand img {
@@ -75,6 +87,7 @@ fieldset[disabled] .btn-info.active {
 }
 
 .masthead {
+  margin-top: 1px;
   height: 100vh;
   min-height: 500px;
   max-height: 900px;
@@ -91,6 +104,10 @@ fieldset[disabled] .btn-info.active {
   font-weight: bold;
   font-size: 61px;
   letter-spacing: 0.35em;
+}
+
+.masthead .fa-arrow-down {
+  color: white;
 }
 
 .masthead p {
@@ -113,27 +130,19 @@ fieldset[disabled] .btn-info.active {
   font-size: 54px;
   color: #AF9453 !important;
   text-align: center;
-  padding: 2rem;
-}
-
-.services .col {
   padding: 1rem;
 }
 
-.services .col .service {
-  text-align: center;
-}
-
 .services .learn-more {
-  margin-top: 6rem;
+  margin-top: 1rem;
   text-align: center;
 }
 
-.bar-right {
+.services .bar-right-service {
   border-right: 1px solid #E4D9BC;
 }
 
-.bar-left {
+.services .bar-left-service {
   border-left: 1px solid #E4D9BC;
 }
 
@@ -141,28 +150,29 @@ fieldset[disabled] .btn-info.active {
   margin-top: 3rem;
 }
 
-.testimonial .col {
-  padding: 10rem;
+.testimonial img {
+  width: 100%;
+  height: 100%;
 }
 
-.testimonial .left {
-  background-image: url("/images/sparklers.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-
-.testimonial .right {
-  text-align: center;
+.testimonial .quote {
+  padding: 2rem;
   background-color: #af9453;
 }
 
-.testimonial .right p {
+.testimonial .quote .vertical {
+  margin-top: 30%;
+}
+
+.testimonial .quote p {
   color: white;
   font-family: 'EB Garamond', serif;
   font-size: 33px;
 }
 
-.testimonial .right span {
+.testimonial .quote span {
+  padding: 2rem;
+  text-align: center;
   color: white;
   font-size: 21px;
   font-family: 'BrandonGrotW01-Light', serif;
@@ -180,8 +190,48 @@ fieldset[disabled] .btn-info.active {
   margin-bottom: 10rem;
 }
 
+.offers h1 {
+  margin-bottom: 2rem;
+}
+
+.offers .bar-right-offers {
+  border-right: 1px solid #E4D9BC;
+}
+
+.offers .bar-left-offers {
+  border-left: 1px solid #E4D9BC;
+}
+
+.bar-right {
+  border-right: 1px solid #E4D9BC;
+}
+
+.bar-left {
+  border-left: 1px solid #E4D9BC;
+}
+
+@media (max-width: 576px) {
+  .services .bar-right-service,
+  .services .bar-left-service {
+    border: none;
+  }
+}
+
+@media (max-width: 990px) {
+  .offers .bar-right-offers,
+  .offers .bar-left-offers {
+    border: none;
+  }
+}
+
+@media (max-width: 1025px) {
+  .vertical {
+    margin-top: 0px;
+    margin-bottom: 30%;
+  }
+}
+
 footer {
-  padding: 4rem;
   background-color: #af9453;
   color: white;
 }
@@ -192,5 +242,122 @@ footer .bar-right {
 
 footer .bar-left {
   border-left: 1px solid white;
+}
+
+footer a {
+  color: white !important;
+}
+
+.our-packages {
+  color: #E4D9BC;
+}
+
+.our-packages p {
+  font-family: 'BrandonGrotW01-Light', serif;
+}
+
+.our-packages i {
+  margin-top: 3rem;
+}
+
+.divider {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-top: 1px solid #E4D9BC;
+}
+
+.masthead-packages {
+  height: 100vh;
+  min-height: 500px;
+  max-height: 500px;
+  background-image: url("/images/packages.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 5rem;
+}
+
+.packages {
+  color: #E4D9BC;
+}
+
+.packages h1 {
+  font-size: 61px;
+  padding-bottom: 1rem;
+}
+
+.packages li {
+  font-family: 'BrandonGrotW01-Light', serif;
+  font-size: 25px;
+}
+
+.packages .lead {
+  font-family: 'BrandonGrotW01-Light', serif;
+}
+
+.packages button {
+  margin-left: 10rem;
+}
+
+.packages .row {
+  margin: 4rem;
+}
+
+@media (max-width: 768px) {
+  .packages button {
+    margin-top: 3rem;
+    margin-left: 0;
+  }
+}
+
+.about {
+  color: #AF9453 !important;
+  margin-bottom: 10rem;
+  margin-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.about img {
+  width: 100%;
+  height: 100%;
+}
+
+.about h1 {
+  font-size: 61px;
+  font-family: 'EB Garamond', serif;
+  font-weight: bold;
+}
+
+.about p {
+  font-family: 'BrandonGrotW01-Light', serif;
+}
+
+.about .about-col {
+  padding: 4rem;
+}
+
+.contact {
+  width: 900px;
+  margin: 0 auto;
+  color: #AF9453;
+  padding: 3rem;
+}
+
+.contact h2 {
+  padding: 3rem;
+}
+
+.contact button {
+  margin: 1rem;
+}
+
+.contact span {
+  color: #373b4d !important;
+}
+
+@media (max-width: 900px) {
+  .contact {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=main.css.map */

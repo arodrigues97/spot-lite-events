@@ -3,14 +3,18 @@
     padding: 1rem;
     font-size: 22px;
     background-color: $backgroundColor;
-
-
+    border-bottom: 1px solid $primaryColor;
+    padding-bottom: 2rem;
     .navbar-nav {
+
+        li {
+            padding-left: 2rem;
+        }
 
         .nav-item {
 
             a {
-                padding-left: 5em;
+               
                 color: $primaryColor !important;
             }
 
@@ -31,8 +35,12 @@
     }
 }
 
-@media (min-width: $smallWidth) {
+@media (max-width: $mediumWidth) {
 
+   .navbar-brand {
+       display: none;
+       background: red;
+   }
   }
 
 .navbar-brand {

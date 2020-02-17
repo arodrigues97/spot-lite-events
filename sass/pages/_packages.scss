@@ -1,0 +1,67 @@
+.our-packages {
+    color: $secondaryColor;
+    p {
+        font-family: 'BrandonGrotW01-Light', serif;
+    }
+
+    i {
+        margin-top: 3rem;
+    }
+}
+
+.divider {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-top: 1px solid $secondaryColor;
+}
+
+.masthead-packages {
+    height: 100vh;
+    min-height: 500px;
+    max-height: 500px;
+    background-image: url('/images/packages.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 5rem;
+}
+
+.packages {
+    color: $secondaryColor;
+    h1 {
+        font-size: 61px;
+        padding-bottom: 1rem;   
+    }
+
+    li {
+        font-family: 'BrandonGrotW01-Light', serif;
+        font-size: 25px;
+    }
+
+    .lead {
+        font-family: 'BrandonGrotW01-Light', serif;
+    }
+
+    button {
+        margin-left: 10rem;
+    }
+
+    .row {
+        margin: 4rem;
+    }
+ 
+}
+
+@media (max-width: $mediumWidth) {
+
+    .packages {
+        button {
+            margin-top: 3rem;
+            margin-left: 0;
+        }
+
+    }
+
+
+  
+}
