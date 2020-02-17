@@ -3,7 +3,7 @@
 <?php
 $pageTitle = "Contact Us";
 require("../templates/head.php");
-?>
+?>s
 <body>
     <?php
     $activeTitle = "Contact Us";
@@ -23,6 +23,8 @@ require("../templates/head.php");
                 $mailheader = "From: $email \r\n";
                 if (mail($recipient,$subject, $message, $mailheader)){
                     echo "<h1>Sent!</h1>";
+                } else {
+                    echo "<h1>Error Sending mail!</h1>";
                 }
             }
             ?>
