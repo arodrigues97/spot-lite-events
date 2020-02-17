@@ -10,32 +10,32 @@
       <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
         <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
         <p>
-          <a href="#!">MDBootstrap</a>
+          <a href="#!">Link</a>
         </p>
         <p>
-          <a href="#!">MDWordPress</a>
+          <a href="#!">Link</a>
         </p>
         <p>
-          <a href="#!">BrandFlow</a>
+          <a href="#!">Link</a>
         </p>
         <p>
-          <a href="#!">Bootstrap Angular</a>
+          <a href="#!">Link</a>
         </p>
       </div>
       <hr class="w-100 clearfix d-md-none">
       <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
         <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
         <p>
-          <a href="#!">Your Account</a>
+          <a href="#!">Link</a>
         </p>
         <p>
-          <a href="#!">Become an Affiliate</a>
+          <a href="#!">Link</a>
         </p>
         <p>
-          <a href="#!">Shipping Rates</a>
+          <a href="#!">Link</a>
         </p>
         <p>
-          <a href="#!">Help</a>
+          <a href="#!">Link</a>
         </p>
       </div>
       <hr class="w-100 clearfix d-md-none">
