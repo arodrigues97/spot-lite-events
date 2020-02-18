@@ -7,9 +7,7 @@ error_reporting(E_ALL);
 $pageTitle = "Home";
 require("templates/head.php");
 ?>
-
 <body>
-
   <?php
   $activeTitle = "Home";
   require("templates/navbar.php");
@@ -17,7 +15,6 @@ require("templates/head.php");
   <?php
   require("templates/masthead.php");
   ?>
-
   <div class="container services">
     <h2 id="servicesH1" class="text-center">Our Services</h2>
     <div class="row offers">
@@ -32,11 +29,10 @@ require("templates/head.php");
     </div>
     <div class="text-center">
       <div class="learn-more">
-        <button class="btn btn-info">Learn More</button>
+        <button class="btn btn-info ">Learn More</button>
       </div>
     </div>
   </div>
-
   <div class="container-fluid testimonial">
     <div class="row">
       <div class="col-12 col-md-6 padding-0"><img class="img-fluid img-responsive" src="/images/sparklers.jpg"></div>
@@ -49,33 +45,33 @@ require("templates/head.php");
       </div>
     </div>
   </div>
-
-
-
   <div class="container-fluid">
     <div class="logo">
       <img class="img-fluid" src="/images/logo.png" alt="Logo">
     </div>
   </div>
-
   <div class="container">
-    <div class="row offers">
-      <div class="col-lg-4 bar-right-offers">
-        <h1>High Quality Products</h1>
+    <div class="row make-it-flex offers">
+      <div class="col-xs-12 col-md-4 flex-item-1 bar-right-offers">
+        <h1>High Quality <br>Products</h1>
+      </div>
+      <div class="col-sm-12 col-md-4 flex-item-4 bar-right-offers">
         <p>Our machines are 100% safe and use no fire,flame or dangerous chemicals. The sparks are completely harmless to run your fingers through and pose no hazard to any venue. Depending on your preference, our machines can be fired simultaneously or in a programmed sequence. We guarantee our products will leave attendees engaged and excited.</p>
       </div>
-      <div class="col-lg-4">
+      <div class="col-sm-12 col-md-4 flex-item-2">
         <h1>Capturing Your Special Moments</h1>
+      </div>
+      <div class="col-sm-12 col-md-4 flex-item-5">
         <p>From grand entrances, to the intimacy of first dances, our product will guarantee a picture perfect moment you can share with your loved ones. With the range of usage being endless, we challenge you to spark up any event worthy of a candid.</p>
       </div>
-      <div class="col-lg-4 bar-left-offers ">
-        <h1>Transparent Pricing</h1>
+      <div class="col-sm-12 col-md-4 flex-item-3 bar-left-offers">
+        <h1>Transparent <br>Pricing</h1>
+      </div>
+      <div class="col-sm-12 col-md-4 flex-item-6 bar-left-offers">
         <p>In comparison to our competitors, we guarantee budget-friendly pricing that won't break the bank. Our team does a fantastic job of tailoring to your situation and providing a price-point that is cheaper than the competition.</p>
       </div>
     </div>
   </div>
-
-
   <?php require("templates/footer.php"); ?>
 </body>
 

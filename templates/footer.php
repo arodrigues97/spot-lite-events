@@ -7,43 +7,11 @@
         <p>Working with people all over Ontario, Canada.</p>
       </div>
       <hr class="w-100 clearfix d-md-none">
-      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-        <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
-        <p>
-          <a href="#!">Link</a>
-        </p>
-        <p>
-          <a href="#!">Link</a>
-        </p>
-        <p>
-          <a href="#!">Link</a>
-        </p>
-        <p>
-          <a href="#!">Link</a>
-        </p>
-      </div>
-      <hr class="w-100 clearfix d-md-none">
-      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-        <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
-        <p>
-          <a href="#!">Link</a>
-        </p>
-        <p>
-          <a href="#!">Link</a>
-        </p>
-        <p>
-          <a href="#!">Link</a>
-        </p>
-        <p>
-          <a href="#!">Link</a>
-        </p>
-      </div>
-      <hr class="w-100 clearfix d-md-none">
       <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
         <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
           <i class="fas fa-envelope mr-3"></i> inquiryspotliteevents@gmail.com</p>
         <p>
-          <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+          <i class="fas fa-phone mr-3"></i> + 1 519 241 6088</p>
       </div>
     </div>
     <hr>
@@ -58,17 +26,17 @@
         <div class="text-center text-md-right">
           <ul class="list-unstyled list-inline">
             <li class="list-inline-item">
-              <a href="#" class="btn-floating btn-sm rgba-white-slight mx-1">
+              <a href="https://www.facebook.com/SpotliteEvents/" class="btn-floating btn-sm rgba-white-slight mx-1">
                <img src="/images/facebook.png" alt="facebook">
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="#" class="btn-floating btn-sm rgba-white-slight mx-1">
+              <a href="http://www.instagram.com/spotliteevents" class="btn-floating btn-sm rgba-white-slight mx-1">
               <img src="/images/instagram.png" alt="instagram">
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="#" class="btn-floating btn-sm rgba-white-slight mx-1">
+              <a href="https://www.linkedin.com/company/spotlite-events-ptr/about/" class="btn-floating btn-sm rgba-white-slight mx-1">
                   <img src="/images/linkedin.png" alt="linkedin">
               </a>
             </li>

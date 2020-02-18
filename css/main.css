@@ -7,7 +7,7 @@
   padding: 1rem;
   font-size: 22px;
   background-color: black;
-  border-bottom: 1px solid #AF9453;
+  border-bottom: 2px solid #AF9453;
   padding-bottom: 2rem;
 }
 
@@ -21,6 +21,12 @@
 
 .navbar .navbar-nav .nav-item a:hover {
   color: #333333 !important;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.navbar-brand img {
+  height: 70px;
 }
 
 .nav-link .active {
@@ -28,14 +34,10 @@
 }
 
 @media (max-width: 768px) {
-  .navbar-brand {
-    display: none;
-    background: red;
+  .navbar-brand img {
+    width: 150px;
+    height: 60px;
   }
-}
-
-.navbar-brand img {
-  width: 80%;
 }
 
 body {
@@ -87,28 +89,26 @@ fieldset[disabled] .btn-info.active {
 }
 
 .masthead {
-  margin-top: 1px;
   height: 100vh;
-  min-height: 500px;
-  max-height: 900px;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/images/mastheader.png");
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/mastheader.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  border-bottom: 2px solid #AF9453;
+}
+
+.masthead .fa-arrow-down {
+  color: white;
 }
 
 .masthead h1 {
   font-family: 'Cinzel', serif;
   color: #DEC33C;
-  font-weight: bold;
+  font-weight: 800;
   font-size: 61px;
   letter-spacing: 0.35em;
-}
-
-.masthead .fa-arrow-down {
-  color: white;
 }
 
 .masthead p {
@@ -119,7 +119,7 @@ fieldset[disabled] .btn-info.active {
 }
 
 .masthead button {
-  margin-top: 10rem;
+  margin-top: 3rem;
 }
 
 .darken-overlay {
@@ -132,23 +132,23 @@ fieldset[disabled] .btn-info.active {
   .masthead {
     background-attachment: scroll;
     background-size: auto;
-    width: 100%;
     height: 100%;
+    width: 100%;
     text-align: center;
+    padding: 5rem;
   }
   .masthead h1 {
-    font-size: 30px;
-    margin-bottom: 2rem;
+    font-size: 25px;
     display: block;
   }
   .masthead p {
     font-size: 20px;
   }
   .masthead button {
-    margin-top: 1rem;
+    margin-bottom: 0;
   }
   .masthead .text {
-    margin-top: 8rem;
+    width: 10px;
   }
 }
 
@@ -178,6 +178,8 @@ fieldset[disabled] .btn-info.active {
 }
 
 .testimonial {
+  border-top: 2px solid #E4D9BC;
+  border-bottom: 2px solid #E4D9BC;
   margin-top: 3rem;
 }
 
@@ -241,6 +243,14 @@ fieldset[disabled] .btn-info.active {
   border-left: 1px solid #E4D9BC;
 }
 
+.make-it-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
 @media (max-width: 576px) {
   .services .bar-right-service,
   .services .bar-left-service {
@@ -249,9 +259,12 @@ fieldset[disabled] .btn-info.active {
   .services .learn-more {
     margin: 0px;
   }
+  .services #servicesH1 {
+    font-size: 40px;
+  }
 }
 
-@media (max-width: 990px) {
+@media (max-width: 768px) {
   .offers .bar-right-offers,
   .offers .bar-left-offers {
     border: none;
@@ -262,6 +275,46 @@ fieldset[disabled] .btn-info.active {
   .vertical {
     margin-top: 0px;
     margin-bottom: 30%;
+  }
+}
+
+@media (min-width: 768px) {
+  .make-it-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .flex-item-1 {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .flex-item-2 {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .flex-item-3 {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+  .flex-item-4 {
+    -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+            order: 4;
+  }
+  .flex-item-5 {
+    -webkit-box-ordinal-group: 6;
+        -ms-flex-order: 5;
+            order: 5;
+  }
+  .flex-item-6 {
+    -webkit-box-ordinal-group: 7;
+        -ms-flex-order: 6;
+            order: 6;
   }
 }
 
@@ -280,6 +333,10 @@ footer .bar-left {
 
 footer a {
   color: white !important;
+}
+
+footer .iwt {
+  display: inline-block;
 }
 
 .our-packages {
@@ -309,6 +366,8 @@ footer a {
   background-position: center;
   background-repeat: no-repeat;
   margin-bottom: 5rem;
+  border-top: 2px solid #E4D9BC;
+  border-bottom: 2px solid #E4D9BC;
 }
 
 .packages {

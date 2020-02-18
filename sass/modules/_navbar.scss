@@ -3,7 +3,7 @@
     padding: 1rem;
     font-size: 22px;
     background-color: $backgroundColor;
-    border-bottom: 1px solid $primaryColor;
+    border-bottom: 2px solid $primaryColor;
     padding-bottom: 2rem;
     .navbar-nav {
 
@@ -14,17 +14,23 @@
         .nav-item {
 
             a {
-               
                 color: $primaryColor !important;
             }
 
             a:hover {
                 color: $hoverColor !important;
+                transition: 0.3s;
             }
 
         
         }
 
+    }
+}
+
+.navbar-brand {
+    img {
+        height: 70px;
     }
 }
 
@@ -36,16 +42,13 @@
 }
 
 @media (max-width: $mediumWidth) {
-
-   .navbar-brand {
-       display: none;
-       background: red;
-   }
+    .navbar-brand {
+        img {
+            width: 150px;
+            height: 60px;
+        }
+    }
+    
   }
 
-.navbar-brand {
-    img {
-      width: 80%;
-    }
-}
 

@@ -3,26 +3,29 @@
 
 
 .masthead {
-    margin-top: 1px;
     height: 100vh;
-    min-height: 500px;
-    max-height: 900px;
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/images/mastheader.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    border-bottom: 2px solid $primaryColor;
+
+    .fa-arrow-down {
+        color: white;
+    }
+
+    .text {
+        
+    }
 
     h1 {
         font-family: 'Cinzel', serif;
         color: #DEC33C;
-        font-weight: bold;
+        font-weight: 800;
         font-size: 61px;
         letter-spacing: 0.35em;
-    }
-
-    .fa-arrow-down {
-        color: white;
+        
     }
 
      p {
@@ -32,7 +35,7 @@
          font-size: 27px;
      }
      button {
-         margin-top: 10rem;
+         margin-top: 3rem;
      }
   }
 
@@ -46,17 +49,15 @@
   @media (max-width: $smallWidth) {
 
     .masthead {
-       
         background-attachment: scroll;
-        background-size: auto;
-        width: 100%;
+        background-size: auto;  
         height: 100%;
+        width: 100%;
         text-align: center;
-       
-
+        padding: 5rem;
+    
         h1 {
-            font-size: 30px;
-            margin-bottom: 2rem;
+            font-size: 25px;
             display: block;
         }
 
@@ -65,11 +66,11 @@
         }
 
         button {
-            margin-top: 1rem;
+            margin-bottom: 0;
         }
 
         .text {
-            margin-top: 8rem;
+            width: 10px;
         }
     }
   }
