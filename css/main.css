@@ -91,7 +91,8 @@ fieldset[disabled] .btn-info.active {
   height: 100vh;
   min-height: 500px;
   max-height: 900px;
-  background-image: url("/images/mastheader.png");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/images/mastheader.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/mastheader.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -121,6 +122,12 @@ fieldset[disabled] .btn-info.active {
   margin-top: 10rem;
 }
 
+.darken-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
 @media (max-width: 576px) {
   .masthead {
     background-attachment: scroll;
@@ -130,8 +137,9 @@ fieldset[disabled] .btn-info.active {
     text-align: center;
   }
   .masthead h1 {
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 2rem;
+    display: block;
   }
   .masthead p {
     font-size: 20px;
@@ -237,6 +245,9 @@ fieldset[disabled] .btn-info.active {
   .services .bar-right-service,
   .services .bar-left-service {
     border: none;
+  }
+  .services .learn-more {
+    margin: 0px;
   }
 }
 
