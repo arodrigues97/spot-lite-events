@@ -1,21 +1,25 @@
 @mixin button-variant($color, $background, $border) {
-    color: $color;
-    background-color: $background;
-    border-color: $border;
+    color: $color !important;
+    background-color: $background !important;
+    border-color: $border !important;
   
     &:hover,
     &:focus,
     &:active,
     &.active,
     .open > &.dropdown-toggle {
-      color: $color;
-      background-color: darken($background, 10%);
-          border-color: darken($border, 12%);
+      color: $color !important;
+      background-color: darken($background, 10%) !important;
+          border-color: darken($border, 12%) !important;
+          box-shadow:none !important;
+    outline:0px !important;
     }
     &:active,
     &.active,
     .open > &.dropdown-toggle {
       background-image: none;
+      box-shadow:none !important;
+    outline:0px !important;
     }
     &.disabled,
     &[disabled],
@@ -25,14 +29,16 @@
       &:focus,
       &:active,
       &.active {
-        background-color: $background;
-            border-color: $border;
+        background-color: $background !important;
+            border-color: $border !important;
+            box-shadow:none !important;
+    outline:0px !important;
       }
     }
   
     .badge {
-      color: $background;
-      background-color: $color;
+      color: $background !important;
+      background-color: $color !important;
     }
   }
   

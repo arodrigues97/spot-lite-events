@@ -18,7 +18,7 @@ $mynewcolor: #AF9453;
     width: 130px;
     border-radius: 0;
     color: white !important;
-    @include button-variant($mynewcolor, $mynewcolor, white);
+    @include button-variant(white, $mynewcolor, white);
 
 }
 
