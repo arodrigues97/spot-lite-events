@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <?php
+error_reporting(-1);
+ini_set('display_errors', 'On');
+set_error_handler("var_dump");
 $pageTitle = "Contact Us";
 require("../templates/head.php");
 ?>s
@@ -21,10 +24,12 @@ require("../templates/head.php");
                 $recipient = "inquiryspotliteevents@gmail.com";
                 $subject = "Message From: " . $name;
                 $mailheader = "From: $email \r\n";
-                if (mail($recipient,$subject, $message, $mailheader)){
+                $success = mail($recipient,$subject, $message, $mailheader);
+                if ($success){
                     echo "<h1>Sent!</h1>";
                 } else {
-                    echo "<h1>Error Sending mail!</h1>";
+                    $errorMessage = error_get_last()['message'];
+                    echo "<h1>Error Sending mail! " . $errorMessage . "</h1>";
                 }
             }
             ?>

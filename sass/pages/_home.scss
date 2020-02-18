@@ -37,6 +37,7 @@
         .vertical {
             margin-top: 30%;
         }
+
         padding: 2rem;
         background-color: rgb(175, 148, 83);
 
@@ -95,7 +96,7 @@
 .make-it-flex {
     display: flex;
     flex-wrap: wrap;
-  }
+}
 
 @media (max-width: $smallWidth) {
 
@@ -107,7 +108,7 @@
         }
 
         .learn-more {
-            margin:  0px;
+            margin: 0px;
         }
 
         #servicesH1 {
@@ -128,10 +129,6 @@
         .bar-left-offers {
             border: none;
         }
-
-        .col-xs, .col-sm {
-           // padding-left: 10rem;
-        }
     }
 
 
@@ -148,13 +145,31 @@
 
 @media (min-width: $mediumWidth) {
     .make-it-flex {
-      display: flex;
-      flex-wrap: wrap;
+        display: flex;
+        flex-wrap: wrap;
     }
-    .flex-item-1 { order: 1; }
-    .flex-item-2 { order: 2; }
-    .flex-item-3 { order: 3; }
-    .flex-item-4 { order: 4; }
-    .flex-item-5 { order: 5; }
-    .flex-item-6 { order: 6; }
-  }
+
+    .flex-item-1 {
+        order: 1;
+    }
+
+    .flex-item-2 {
+        order: 2;
+    }
+
+    .flex-item-3 {
+        order: 3;
+    }
+
+    .flex-item-4 {
+        order: 4;
+    }
+
+    .flex-item-5 {
+        order: 5;
+    }
+
+    .flex-item-6 {
+        order: 6;
+    }
+}
