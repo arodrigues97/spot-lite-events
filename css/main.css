@@ -140,10 +140,11 @@ fieldset[disabled] .btn-info.active {
 @media (max-width: 576px) {
   .masthead {
     background-attachment: scroll;
-    background-size: auto;
     height: 100%;
     width: 100%;
     text-align: center;
+    background-size: cover;
+    background-position: center;
     padding: 5rem;
   }
   .masthead h1 {

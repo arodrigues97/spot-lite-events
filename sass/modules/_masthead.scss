@@ -46,11 +46,12 @@
 
     .masthead {
         background-attachment: scroll;
-        background-size: auto;  
         height: 100%;
         width: 100%;
         text-align: center;
-        padding: 5rem;
+        background-size: cover;
+     background-position: center;
+     padding: 5rem;
     
         h1 {
             font-size: 25px;
