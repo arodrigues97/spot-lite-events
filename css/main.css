@@ -339,6 +339,12 @@ footer .iwt {
   display: inline-block;
 }
 
+@media (max-width: 576px) {
+  .hide-small {
+    display: none;
+  }
+}
+
 .our-packages {
   color: #E4D9BC;
 }

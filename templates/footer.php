@@ -7,21 +7,22 @@
         <p>Working with people all over Ontario, Canada.</p>
       </div>
       <hr class="w-100 clearfix d-md-none">
-      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-        <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+      <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
           <i class="fas fa-envelope mr-3"></i> inquiryspotliteevents@gmail.com</p>
         <p>
           <i class="fas fa-phone mr-3"></i> + 1 519 241 6088</p>
       </div>
+      <hr class="w-100 clearfix d-md-none">
     </div>
-    <hr>
+    <hr class="hide-small">
     <div class="row d-flex align-items-center">
       <div class="col-md-7 col-lg-8">
         <p class="text-center text-md-left">&copy; 2020 Copyright:
             <strong> SpotLite Events</strong>
         </p>
-
       </div>
+   
       <div class="col-md-5 col-lg-4 ml-lg-0">
         <div class="text-center text-md-right">
           <ul class="list-unstyled list-inline">

@@ -19,3 +19,11 @@ footer {
         display: inline-block;
     }
 }
+
+
+@media (max-width: $smallWidth) {
+
+    .hide-small {
+        display: none;
+    }
+}
