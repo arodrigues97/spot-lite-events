@@ -7,6 +7,7 @@
         color: $primaryColor !important;
         text-align: center;
         padding: 1rem;
+        margin-bottom: 2rem;
     }
 
     .learn-more {
@@ -75,6 +76,10 @@
         margin-bottom: 2rem;
     }
 
+    p {
+        font-size: 18px;
+    }
+
     .bar-right-offers {
         border-right: 1px solid $secondaryColor;
     }
@@ -129,6 +134,18 @@
         .bar-left-offers {
             border: none;
         }
+
+        h1 {
+            margin-bottom: 3rem;
+            margin-top: 3rem;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+      
+
     }
 
 

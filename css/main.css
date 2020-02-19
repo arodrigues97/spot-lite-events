@@ -172,6 +172,7 @@ fieldset[disabled] .btn-info.active {
   color: #AF9453 !important;
   text-align: center;
   padding: 1rem;
+  margin-bottom: 2rem;
 }
 
 .services .learn-more {
@@ -237,6 +238,10 @@ fieldset[disabled] .btn-info.active {
   margin-bottom: 2rem;
 }
 
+.offers p {
+  font-size: 18px;
+}
+
 .offers .bar-right-offers {
   border-right: 1px solid #E4D9BC;
 }
@@ -278,6 +283,13 @@ fieldset[disabled] .btn-info.active {
   .offers .bar-right-offers,
   .offers .bar-left-offers {
     border: none;
+  }
+  .offers h1 {
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+  }
+  .offers p {
+    font-size: 20px;
   }
 }
 
@@ -450,6 +462,7 @@ footer .iwt {
   margin: 0 auto;
   color: #AF9453;
   padding: 3rem;
+  padding-bottom: 15rem;
 }
 
 .contact h2 {

@@ -16,8 +16,11 @@ require("templates/head.php");
   require("templates/masthead.php");
   ?>
   <div class="container services">
-    <h2 id="servicesH1" class="text-center">Our Services</h2>
     <div class="row offers">
+      <div class="col-12">
+
+    <h2 id="servicesH1" class="text-center">Our Services</h2>
+      </div>
       <div class="col-sm-6 bar-right-service">
         <h1>Cold Spark Fountain</h1>
         <p>Our cold spark machines are a perfect choice for enhancing the experiences of first dances, new product launches, shows, grand entrances and various other types of events. Cold spark machines can either be fired all together, in a programmed sequence and/or one by one in order to create beautiful effects and create waves.</p>
@@ -27,9 +30,9 @@ require("templates/head.php");
         <p>Dry ice fog machines are utilized to produce a thick fog effect that enhances lighting and the mood of an event.</p>
       </div>
     </div>
-    <div class="text-center">
+    <div class="col-12 text-center">
       <div class="learn-more">
-        <button class="btn btn-info ">Learn More</button>
+        <a href="/packages"><button class="btn btn-info ">Learn More</button></a>
       </div>
     </div>
   </div>

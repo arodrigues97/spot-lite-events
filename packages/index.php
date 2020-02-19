@@ -40,7 +40,7 @@ require("../templates/head.php");
                     <span class="lead">Contact us for pricing details</span>
                 </div>
                 <div class="col col-md-6">
-                    <button class="btn btn-info">Book Now</button>
+                <a href="/contact-us"><button class="btn btn-info">Book Now</button></a>
                 </div>
             </div>
         </div>
@@ -58,7 +58,7 @@ require("../templates/head.php");
                     <span class="lead">Contact us for pricing details</span>
                 </div>
                 <div class="col col-md-6">
-                    <button class="btn btn-info">Book Now</button>
+                    <a href="/contact-us"><button class="btn btn-info">Book Now</button></a>
                 </div>
             </div>
         </div>
@@ -73,7 +73,7 @@ require("../templates/head.php");
                     <span class="lead">Contact us for pricing details</span>
                 </div>
                 <div class="col col-md-6">
-                    <button class="btn btn-info">Book Now</button>
+                <a href="/contact-us"><button class="btn btn-info">Book Now</button></a>
                 </div>
             </div>
         </div>

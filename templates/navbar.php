@@ -9,7 +9,7 @@ function drawNavbar($activeTitle) {
 }
 ?>
 <nav class="navbar navbar-dark navbar-expand-lg">
-    <a class="navbar-brand" href="/home"><img class="" src="/images/logo.png"></a>
+    <a class="navbar-brand" href="/"><img class="" src="/images/logo.png"></a>
     <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
         <span class="navbar-toggler-icon"></span>
     </button>
