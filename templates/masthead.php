@@ -5,7 +5,7 @@
     <div class="col-12 text-center text">
       <h1 class="">SpotLite Events</h1>
       <p class="">Servicing Our Effects For Your Special Day</p>
-      <a href="/contact-us"><button class="btn btn-info">Book Now</button></a>
+      <a href="/contact-us"><button id="book-now" class="btn btn-info">Book Now</button></a>
     </div>
   </div>
 </div>
