@@ -100,6 +100,7 @@ function sendMail($recipient, $name, $number, $message)
         ]
     ];
 
+    phpinfo();
     //Tell PHPMailer to use SMTP
     $mail->isSMTP();
 
