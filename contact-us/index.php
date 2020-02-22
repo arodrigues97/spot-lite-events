@@ -88,17 +88,17 @@ require("../templates/head.php");
 
 function sendMail($recipient, $name, $number, $message)
 {
-    
+
     //Create a new PHPMailer instance
     $mail = new PHPMailer;
 
-    $mail ->SMTPOptions = [
+    $mail->SMTPOptions = [
         'ssl' => [
-          'verify_peer' => false,
-          'verify_peer_name' => false,
-          'allow_self_signed' => true
+            'verify_peer' => false,
+            'verify_peer_name' => false,
+            'allow_self_signed' => true
         ]
-      ];
+    ];
 
     //Tell PHPMailer to use SMTP
     $mail->isSMTP();
@@ -119,12 +119,10 @@ function sendMail($recipient, $name, $number, $message)
     $mail->Port = 587;
 
     //Set the encryption mechanism to use - STARTTLS or SMTPS
-    $mail->SMTPSecure = false;
+    $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
 
     //Whether to use SMTP authentication
-    $mail->SMTPAuth = false;
-
-    $mail -> SMTPAutoTLS = false;
+    $mail->SMTPAuth = true;
 
     //Username to use for SMTP authentication - use full email address for gmail
     $mail->Username = 'inquiryspotliteevents@gmail.com';
