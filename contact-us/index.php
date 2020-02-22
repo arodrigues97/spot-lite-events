@@ -119,10 +119,12 @@ function sendMail($recipient, $name, $number, $message)
     $mail->Port = 587;
 
     //Set the encryption mechanism to use - STARTTLS or SMTPS
-    $mail->SMTPSecure = "ssl";
+    $mail->SMTPSecure = false;
 
     //Whether to use SMTP authentication
-    $mail->SMTPAuth = true;
+    $mail->SMTPAuth = false;
+
+    $mail -> SMTPAutoTLS = false;
 
     //Username to use for SMTP authentication - use full email address for gmail
     $mail->Username = 'inquiryspotliteevents@gmail.com';
