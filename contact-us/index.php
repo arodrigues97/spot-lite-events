@@ -116,13 +116,14 @@ function sendMail($recipient, $name, $number, $message)
     // if your network does not support SMTP over IPv6
 
     //Set the SMTP port number - 587 for authenticated TLS, a.k.a. RFC4409 SMTP submission
-    $mail->Port = 25;
+    $mail->Port = 587;
 
     //Set the encryption mechanism to use - STARTTLS or SMTPS
-    $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+    $mail->SMTPSecure = "tls";
 
     //Whether to use SMTP authentication
     $mail->SMTPAuth = true;
+    $mail -> AuthType = "LOGIN";
 
     //Username to use for SMTP authentication - use full email address for gmail
     $mail->Username = 'inquiryspotliteevents@gmail.com';
