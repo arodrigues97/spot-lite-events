@@ -92,7 +92,7 @@ function sendMail($recipient, $name, $number, $message)
     $mail = new PHPMailer;
 
     //Tell PHPMailer to use SMTP
-    $mail->isSMTP();
+    //$mail->isSMTP();
 
     //Enable SMTP debugging
     // SMTP::DEBUG_OFF = off (for production use)
