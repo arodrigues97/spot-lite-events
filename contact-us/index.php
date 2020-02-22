@@ -92,7 +92,7 @@ function sendMail($recipient, $name, $number, $message)
     $mail = new PHPMailer;
 
     //Tell PHPMailer to use SMTP
-    //$mail->isSMTP();
+    $mail->isSMTP();
 
     //Enable SMTP debugging
     // SMTP::DEBUG_OFF = off (for production use)
@@ -108,6 +108,8 @@ function sendMail($recipient, $name, $number, $message)
 
     //Set the SMTP port number - 587 for authenticated TLS, a.k.a. RFC4409 SMTP submission
     $mail->Port = 587;
+
+    $mail->SMTPAutoTLS = false;
 
     //Set the encryption mechanism to use - STARTTLS or SMTPS
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
