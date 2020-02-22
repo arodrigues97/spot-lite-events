@@ -88,11 +88,7 @@ require("../templates/head.php");
 
 function sendMail($recipient, $name, $number, $message)
 {
-    if (extension_loaded('openssl')) {
-        print 'openssl extension loaded.';
-      } else {
-          print "NOT LOADED!";
-      }
+    
     //Create a new PHPMailer instance
     $mail = new PHPMailer;
 
@@ -123,10 +119,10 @@ function sendMail($recipient, $name, $number, $message)
     $mail->Port = 587;
 
     //Set the encryption mechanism to use - STARTTLS or SMTPS
-    $mail->SMTPSecure = false;
+    $mail->SMTPSecure = "ssl";
 
     //Whether to use SMTP authentication
-    $mail->SMTPAuth = false;
+    $mail->SMTPAuth = true;
 
     //Username to use for SMTP authentication - use full email address for gmail
     $mail->Username = 'inquiryspotliteevents@gmail.com';
