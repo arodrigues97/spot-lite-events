@@ -129,7 +129,7 @@ function sendMail($recipient, $name, $number, $message)
     $mail->Username = 'inquiryspotliteevents@gmail.com';
 
     //Password to use for SMTP authentication
-    $mail->Password = 'scotiabank1995';
+    $mail->Password = '';
 
     //Set who the message is to be sent from
     $mail->setFrom("inquiryspotliteevents@gmail.com", $name);
